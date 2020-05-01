@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="profile"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/RlUser"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#ffffff">
+
+            <ImageView
+                android:id="@+id/ivUser"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_below="@+id/tvTitle"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:background="#eeeeee"
+                android:scaleType="centerCrop"/>
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+
+                android:background="@drawable/ic_brightness_5_black_24dp"
+                android:scaleX="1.82"
+                android:scaleY="1.82"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvNick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="4dp"
+            android:singleLine="true"
+            android:text="Loading"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loading..."
+            android:textColor="#9a9a9a"
+            android:textSize="17sp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/ic_work_black_24dp" />
+
+            <TextView
+                android:id="@+id/tvContents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Loading..."
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/area" />
+
+            <TextView
+                android:id="@+id/tvArea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="5dp"
+                android:text="Loading..."
+                android:textColor="#000"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/ic_attach_money_black_24dp" />
+            <TextView
+                android:id="@+id/tvGender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Loading..."
+                android:textColor="#000"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tvSelfIntro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginTop="5dp"
+            android:text="Loading..."
+            android:textColor="#7f7f7f"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/btnSignout"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_above="@+id/blank"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_toRightOf="@+id/changeInfo"
+                android:background="@drawable/ui_contents_background"
+                android:gravity="center"
+                android:radius="10dp"
+                android:text="로그아웃"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/changeInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_above="@+id/blank"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/ui_contents_background"
+                android:gravity="center"
+                android:radius="10dp"
+                android:text="개인정보 변경"
+                android:textSize="20dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">426245585696-eengf9li22v1cq4l6jqnb6peek4fq8i4.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://kuapp-63a9d.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">426245585696</string>
+    <string name="google_api_key" translatable="false">AIzaSyBLt__WllrWqq8mEUvLBeji1GPF2Wqjndc</string>
+    <string name="google_app_id" translatable="false">1:426245585696:android:8cf5c435ff82bd764f3545</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBLt__WllrWqq8mEUvLBeji1GPF2Wqjndc</string>
+    <string name="google_storage_bucket" translatable="false">kuapp-63a9d.appspot.com</string>
+    <string name="project_id" translatable="false">kuapp-63a9d</string>
+</resources>

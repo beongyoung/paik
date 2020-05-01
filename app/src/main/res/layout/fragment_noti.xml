@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tab.NotiFragment"
+    android:background="#ffffff"
+    android:clickable="true"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/friendActionBar"
+        android:text="내 알림"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="new!"
+        android:textSize="24dp"
+        android:textColor="#ff6464"
+        android:layout_toRightOf="@+id/friendActionBar"
+
+        android:layout_marginLeft="6dp"
+        />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rnFriend"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/friendActionBar"
+
+        />
+</RelativeLayout>

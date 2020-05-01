@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user.Regist"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="20dp"
+        android:text="기본 정보"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="115dp"
+        android:text="구분"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="147dp"
+        android:layout_marginTop="103dp">
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="전문가"
+            android:textColor="#000000" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="고객"
+
+            android:textColor="#000000" />
+
+
+    </RadioGroup>
+
+
+
+
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="111dp"
+        android:layout_marginEnd="35dp"
+        android:text="다음" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="262dp"
+        android:layout_height="33dp"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignParentStart="true"
+        android:visibility="gone"
+        android:gravity="end"
+        android:text="wef" />
+
+
+
+</RelativeLayout>

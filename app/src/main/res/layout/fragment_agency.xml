@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        android:background="#fff"
+
+        tools:context=".tab.AgencyFragment"
+        android:clickable="true">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:scrollbars="none"
+            android:id="@+id/svHome">
+
+            <RelativeLayout
+                android:id="@+id/tmpFilter"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/tmpIdAgency"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Official writing agency service"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    />
+
+                <LinearLayout
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/llCompany"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:layout_below="@+id/tmpIdAgency"
+                    >
+                    <LinearLayout
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginHorizontal="10dp"
+                        android:id="@+id/llCompanyA"
+                        >
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_account_circle_black_24dp"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Posco"
+                            android:gravity="center"
+                            />
+                    </LinearLayout>
+
+
+
+
+
+                </LinearLayout>
+
+
+                <androidx.recyclerview.widget.RecyclerView
+
+
+                    android:layout_margin="15dp"
+                    android:id="@+id/rvForm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/llCompany"
+                    android:scrollbars="vertical"
+
+                    />
+
+
+
+
+            </RelativeLayout>
+
+
+        </ScrollView>
+
+
+
+    <ProgressBar
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/pbTmp"
+        android:visibility="gone"
+        />
+</RelativeLayout>

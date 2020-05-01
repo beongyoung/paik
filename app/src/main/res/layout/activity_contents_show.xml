@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".post.ContentsShow">
+
+        <ImageView
+            android:id="@+id/ivUser"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/ic_person_black_24dp" />
+
+        <TextView
+            android:id="@+id/tvUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@+id/ivUser"
+            android:background="@drawable/ui_bar"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="email"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvUser"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/ivUser"
+            android:padding="5dp"
+            android:text="NULL"
+            android:textColor="#4f4f4f"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ivUser"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/ui_contents_background"
+            android:padding="15dp"
+            android:text="Loading...."
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvGood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvText"
+            android:layout_margin="5dp"
+            android:background="@drawable/ui_bar"
+            android:padding="10dp"
+            android:text="좋아요"
+            android:textColor="#fff" />
+    </RelativeLayout>
+</ScrollView>
+

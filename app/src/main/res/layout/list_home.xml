@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:id="@+id/ivUser"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/ic_person_black_24dp"
+        />
+
+    <Button
+        android:id="@+id/btnChat"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="65dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="3dp"
+        android:background="#00ff0000" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+
+        android:layout_width="300dp"
+        android:layout_height="36dp"
+
+
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="31dp"
+        android:textColor="#111"
+        android:textSize="15dp" />
+
+
+
+
+</RelativeLayout>

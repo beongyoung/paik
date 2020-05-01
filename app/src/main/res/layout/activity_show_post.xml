@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".post.show_post">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/etComment"
+        android:background="#fff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ivCancel"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/ic_clear_black_24dp" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/ivMore"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/ic_more_vert_black_24dp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:id="@+id/RlUser"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_marginHorizontal="15dp"
+                    android:layout_marginTop="2dp"
+                    android:background="#d4d4d4">
+
+                    <ImageView
+                        android:id="@+id/ivUser"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:scaleType="centerCrop" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/ic_brightness_5_black_24dp"
+                        android:scaleX="1.82"
+                        android:scaleY="1.82" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tvNick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_toRightOf="@+id/RlUser"
+                    android:text="Loading..."
+                    android:textColor="#000"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvNick"
+                    android:layout_toRightOf="@+id/RlUser"
+                    android:text="Loading..."
+                    android:textColor="#c5c5c5" />
+
+                <TextView
+                    android:id="@+id/tvTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvTime"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Loading..."
+                    android:textColor="#000"
+                    android:textSize="19dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvContents"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvTitle"
+                    android:layout_marginHorizontal="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="내용"
+                    android:textColor="#616161"
+                    android:textSize="15dp" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvGuest"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvContents"
+                    android:scrollbars="vertical" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/etComment"
+        android:background="#e6e6e6"></View>
+
+    <EditText
+        android:id="@+id/etComment"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/btnSend"
+        android:background="#fff"
+        android:hint="댓글을 입력하세요.(최대 60글자)"
+        android:maxLength="60" />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="#fff"
+        android:text="작성" />
+
+    <ProgressBar
+        android:id="@+id/pbTmp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+</RelativeLayout>

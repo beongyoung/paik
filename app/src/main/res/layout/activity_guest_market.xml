@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".guest.guest_market">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:id="@+id/tmpFilter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvSelectArea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/ui_contents_background"
+                android:gravity="center"
+                android:paddingHorizontal="15dp"
+                android:paddingVertical="5dp"
+                android:text="지역별"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tvSelectContents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_toRightOf="@+id/tvSelectArea"
+                android:background="@drawable/ui_contents_background"
+                android:gravity="center"
+                android:paddingHorizontal="15dp"
+                android:paddingVertical="5dp"
+                android:text="콘텐츠별"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tvReset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_toLeftOf="@+id/tvSelectArea"
+                android:background="@drawable/ui_contents_background"
+                android:gravity="center"
+                android:paddingHorizontal="15dp"
+                android:paddingVertical="5dp"
+                android:text="전체보기"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/newGuest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvSelectArea"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/ui_contents_background"
+                android:gravity="center"
+                android:paddingHorizontal="15dp"
+                android:paddingVertical="5dp"
+                android:text="게스트 작성하기"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvGuest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/newGuest"
+                android:scrollbars="vertical" />
+
+            <Button
+                android:id="@+id/btnReadMore"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@+id/rvGuest"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/ui_contents_background"
+                android:paddingHorizontal="5dp"
+                android:text="1000개 더 찾아보기" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

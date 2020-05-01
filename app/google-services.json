@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "747053335837",
+    "firebase_url": "https://paik-c0f08.firebaseio.com",
+    "project_id": "paik-c0f08",
+    "storage_bucket": "paik-c0f08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747053335837:android:34d81e4490e5a3a88f8df4",
+        "android_client_info": {
+          "package_name": "com.paik.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "747053335837-h4uifiufmmc7l49o1f2om05mp7i8v9c2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.paik.app",
+            "certificate_hash": "80fdbf34aa3d11a1c078e44ba167f3417a1af04d"
+          }
+        },
+        {
+          "client_id": "747053335837-ln6sd96l1l0j2srj3au8ltlcn0cc5dqd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8Iwdt3EAuRgR-LQ66doIHywl4wNgyl-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "747053335837-ln6sd96l1l0j2srj3au8ltlcn0cc5dqd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

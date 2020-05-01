@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="4dp"
+
+
+    android:layout_height="wrap_content"
+    android:background="@drawable/ui_noti_unread"
+    >
+
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:id="@+id/ivUser"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/ic_person_black_24dp"
+        />
+
+    <Button
+        android:id="@+id/btnChat"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="65dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="3dp"
+        android:background="#00ff0000" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@+id/ivUser"
+        android:textColor="#0054a4"
+        android:textSize="16dp"
+        android:layout_marginTop="11dp"
+
+
+        android:textStyle="bold"
+        android:text="무슨무슨"
+        android:id="@+id/tvNick"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_toRightOf="@+id/tvNick"
+        android:textColor="#111"
+        android:textSize="16dp"
+        android:layout_marginTop="11dp"
+        android:singleLine="true"
+
+        android:text="안녕하세요 weofijeofiajfjweifjiajifgiojoijojijjojk"
+        android:id="@+id/tvContents"
+        />
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/tvNick"
+        android:layout_toRightOf="@+id/ivUser"
+        android:background="@drawable/ic_subdirectory_arrow_right_black_24dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ㅇㅇ"
+        android:textColor="#008bc6"
+        android:textSize="16dp"
+        android:layout_toRightOf="@+id/ivUser"
+        android:layout_marginLeft="22dp"
+        android:layout_below="@+id/tvNick"
+        android:layout_marginTop="3dp"
+        android:id="@+id/tvArea"
+        android:singleLine="true"
+        />
+
+    <TextView
+        android:id="@+id/tvEmail"
+
+        android:visibility="gone"
+        android:text="test"
+        android:layout_width="300dp"
+        android:layout_height="36dp"
+        android:layout_marginRight="20dp"
+        android:layout_toRightOf="@+id/ivUser"
+        android:textColor="#111"
+        android:textSize="15dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1992-12-1 11:23:24"
+        android:textColor="#949494"
+        android:layout_below="@+id/tvArea"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/tvTime"
+        />
+
+
+
+
+</RelativeLayout>

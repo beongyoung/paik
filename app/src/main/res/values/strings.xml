@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">chatApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="area">
+        <item>"Seoul"</item>
+        <item>"Busan"</item>
+        <item>"Daegu"</item>
+        <item>"Gwangju"</item>
+        <item>"Incheon"</item>
+        <item>"Daejeon"</item>
+        <item>"Ulsan"</item>
+        <item>"Gyeonggi-do"</item>
+        <item>"Gangwon-do"</item>
+        <item>"Chungcheongbuk-do"</item>
+        <item>"Jeollabuk-do"</item>
+        <item>"Jeollanam-do"</item>
+        <item>"Gyeongsangbuk-do"</item>
+        <item>"Gyeongsangnam-do"</item>
+        <item>"Jeju-do"</item>
+
+
+    </string-array>
+
+
+    <string-array name="more">
+        <item>"view profile"</item>
+        <item>"send message"</item>
+        <item>"report"</item>
+    </string-array>
+
+    <string-array name="country">
+        <item>"korea"</item>
+        <item>"usa"</item>
+        <item>"일본"</item>
+        <item>"중국"</item>
+        <item>"러시아"</item>
+        <item>"기타"</item>
+    </string-array>
+
+    <string-array name="contents">
+        <item>"Lawyer"</item>
+        <item>"accountant"</item>
+        <item>"Patent Attorney"</item>
+        <item>"Realtor"</item>
+        <item>"Official"</item>
+        <item>"기타"</item>
+    </string-array>
+
+    <string-array name="freeCategory">
+        <item>"Translation help"</item>
+        <item>"Legal help"</item>
+        <item>"study help"</item>
+        <item>"Find friend"</item>
+        <item>"기타"</item>
+    </string-array>
+
+
+</resources>

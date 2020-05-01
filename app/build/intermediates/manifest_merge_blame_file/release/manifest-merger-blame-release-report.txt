@@ -1,0 +1,343 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.paik.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="27"
+8-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:4:5-80
+11-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:4:22-77
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:5:5-68
+12-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:5:22-65
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:6:5-67
+13-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:6:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.firebase:firebase-database:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\e026789d693e4eaa5c7c9a4dbca6e8b6\jetified-firebase-database-16.0.5\AndroidManifest.xml:22:5-79
+14-->[com.google.firebase:firebase-database:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\e026789d693e4eaa5c7c9a4dbca6e8b6\jetified-firebase-database-16.0.5\AndroidManifest.xml:22:22-76
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+15-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\513472d40dc2657af4d1a544800b2e31\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:26:5-110
+15-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\513472d40dc2657af4d1a544800b2e31\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:26:22-107
+16    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+16-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\8b92dc3ac66a5d78b33e25e45a0d3b51\jetified-firebase-iid-17.0.4\AndroidManifest.xml:26:5-82
+16-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\8b92dc3ac66a5d78b33e25e45a0d3b51\jetified-firebase-iid-17.0.4\AndroidManifest.xml:26:22-79
+17
+18    <application
+18-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:7:5-49:19
+19        android:allowBackup="true"
+19-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:8:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.1.0] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\d8e6145ebd5f6e1099b739484795a4bd\core-1.1.0\AndroidManifest.xml:24:18-86
+21        android:extractNativeLibs="false"
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:9:9-43
+23        android:label="@string/app_name"
+23-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:10:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:11:9-54
+25        android:supportsRtl="true"
+25-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:12:9-35
+26        android:theme="@style/Theme.Design.Light.NoActionBar" >
+26-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:13:9-62
+27        <activity android:name="com.paik.app.company.LaborContract" />
+27-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:14:9-68
+27-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:14:19-56
+28        <activity android:name="com.paik.app.company.RegistCompany" />
+28-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:15:9-59
+28-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:15:19-56
+29        <activity android:name="com.paik.app.company.CompanyA" />
+29-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:16:9-54
+29-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:16:19-51
+30        <activity android:name="com.paik.app.F_UnpaidWages" />
+30-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:17:9-51
+30-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:17:19-48
+31
+32        <service
+32-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:18:9-24:19
+33            android:name="com.paik.app.MyFirebaseMessagingService"
+33-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:19:13-55
+34            android:exported="false" >
+34-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:20:13-37
+35            <intent-filter>
+35-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:21:13-23:29
+36                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+36-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:22:17-78
+36-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:22:25-75
+37            </intent-filter>
+38        </service>
+39
+40        <activity android:name="com.paik.app.report" />
+40-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:25:9-44
+40-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:25:19-41
+41        <activity android:name="com.paik.app.MainActivity" >
+41-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:26:9-31:20
+41-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:26:19-47
+42            <intent-filter>
+42-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:27:13-30:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:28:17-69
+43-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:28:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:29:17-77
+45-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:29:27-74
+46            </intent-filter>
+47        </activity>
+48        <activity android:name="com.paik.app.ChatActivity" />
+48-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:32:9-49
+48-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:32:19-47
+49        <activity android:name="com.paik.app.tab.TabActivity" />
+49-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:33:9-52
+49-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:33:19-50
+50        <activity android:name="com.paik.app.user.RateActivity" />
+50-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:34:9-54
+50-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:34:19-52
+51        <activity android:name="com.paik.app.ImageActivity" />
+51-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:35:9-50
+51-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:35:19-48
+52        <activity android:name="com.paik.app.MessageActivity" />
+52-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:36:9-52
+52-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:36:19-50
+53        <activity android:name="com.paik.app.chatRoom" />
+53-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:37:9-45
+53-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:37:19-43
+54        <activity android:name="com.paik.app.user.Regist" />
+54-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:38:9-48
+54-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:38:19-46
+55        <activity android:name="com.paik.app.user.Regist2" />
+55-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:39:9-49
+55-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:39:19-47
+56        <activity android:name="com.paik.app.post.ContentsDrawer" />
+56-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:40:9-56
+56-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:40:19-54
+57        <activity android:name="com.paik.app.post.ContentsShow" />
+57-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:41:9-54
+57-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:41:19-52
+58        <activity android:name="com.paik.app.post.NewPost" />
+58-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:42:9-49
+58-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:42:19-47
+59        <activity android:name="com.paik.app.post.areaContents" />
+59-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:43:9-54
+59-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:43:19-52
+60        <activity android:name="com.paik.app.guest.guest_market" />
+60-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:44:9-55
+60-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:44:19-53
+61        <activity android:name="com.paik.app.guest.newGuest" />
+61-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:45:9-51
+61-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:45:19-49
+62        <activity android:name="com.paik.app.guest.showGuestInfo" />
+62-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:46:9-56
+62-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:46:19-54
+63        <activity android:name="com.paik.app.PointShop" />
+63-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:47:9-46
+63-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:47:19-44
+64        <activity android:name="com.paik.app.post.show_post" />
+64-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:48:9-51
+64-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:48:19-49
+65
+66        <provider
+66-->[com.squareup.picasso:picasso:2.71828] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\c179a6b8adf466a31334321b2412bea3\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+67            android:name="com.squareup.picasso.PicassoProvider"
+67-->[com.squareup.picasso:picasso:2.71828] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\c179a6b8adf466a31334321b2412bea3\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+68            android:authorities="com.paik.app.com.squareup.picasso"
+68-->[com.squareup.picasso:picasso:2.71828] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\c179a6b8adf466a31334321b2412bea3\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+69            android:exported="false" />
+69-->[com.squareup.picasso:picasso:2.71828] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\c179a6b8adf466a31334321b2412bea3\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+70
+71        <activity
+71-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\3cf77b9a2176cc390515055e7cd644eb\jetified-firebase-auth-16.0.5\AndroidManifest.xml:24:9-31:50
+72            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+72-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\3cf77b9a2176cc390515055e7cd644eb\jetified-firebase-auth-16.0.5\AndroidManifest.xml:25:13-85
+73            android:excludeFromRecents="true"
+73-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\3cf77b9a2176cc390515055e7cd644eb\jetified-firebase-auth-16.0.5\AndroidManifest.xml:26:13-46
+74            android:exported="true"
+74-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\3cf77b9a2176cc390515055e7cd644eb\jetified-firebase-auth-16.0.5\AndroidManifest.xml:27:13-36
+75            android:launchMode="singleTask"
+75-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\3cf77b9a2176cc390515055e7cd644eb\jetified-firebase-auth-16.0.5\AndroidManifest.xml:28:13-44
+76            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+76-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\3cf77b9a2176cc390515055e7cd644eb\jetified-firebase-auth-16.0.5\AndroidManifest.xml:29:13-102
+77            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+77-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\3cf77b9a2176cc390515055e7cd644eb\jetified-firebase-auth-16.0.5\AndroidManifest.xml:30:13-72
+78
+79        <service
+79-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\3cf77b9a2176cc390515055e7cd644eb\jetified-firebase-auth-16.0.5\AndroidManifest.xml:33:9-39:19
+80            android:name="com.google.firebase.components.ComponentDiscoveryService"
+80-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\3cf77b9a2176cc390515055e7cd644eb\jetified-firebase-auth-16.0.5\AndroidManifest.xml:34:13-84
+81            android:exported="false" >
+81-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\3cf77b9a2176cc390515055e7cd644eb\jetified-firebase-auth-16.0.5\AndroidManifest.xml:35:13-37
+82            <meta-data
+82-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\3cf77b9a2176cc390515055e7cd644eb\jetified-firebase-auth-16.0.5\AndroidManifest.xml:36:13-38:85
+83                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+83-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\3cf77b9a2176cc390515055e7cd644eb\jetified-firebase-auth-16.0.5\AndroidManifest.xml:37:17-109
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\3cf77b9a2176cc390515055e7cd644eb\jetified-firebase-auth-16.0.5\AndroidManifest.xml:38:17-82
+85            <meta-data
+85-->[com.google.firebase:firebase-measurement-connector-impl:17.0.3] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\f80f815c80dbf22286443e5398b5caea\jetified-firebase-measurement-connector-impl-17.0.3\AndroidManifest.xml:28:13-30:85
+86                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+86-->[com.google.firebase:firebase-measurement-connector-impl:17.0.3] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\f80f815c80dbf22286443e5398b5caea\jetified-firebase-measurement-connector-impl-17.0.3\AndroidManifest.xml:29:17-139
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-measurement-connector-impl:17.0.3] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\f80f815c80dbf22286443e5398b5caea\jetified-firebase-measurement-connector-impl-17.0.3\AndroidManifest.xml:30:17-82
+88            <meta-data
+88-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\8b92dc3ac66a5d78b33e25e45a0d3b51\jetified-firebase-iid-17.0.4\AndroidManifest.xml:32:13-34:85
+89                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+89-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\8b92dc3ac66a5d78b33e25e45a0d3b51\jetified-firebase-iid-17.0.4\AndroidManifest.xml:33:17-96
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\8b92dc3ac66a5d78b33e25e45a0d3b51\jetified-firebase-iid-17.0.4\AndroidManifest.xml:34:17-82
+91        </service>
+92
+93        <activity
+93-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\2e21f0125919c944fc7750e397a58f85\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
+94            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+94-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\2e21f0125919c944fc7750e397a58f85\jetified-play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
+95            android:excludeFromRecents="true"
+95-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\2e21f0125919c944fc7750e397a58f85\jetified-play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
+96            android:exported="false"
+96-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\2e21f0125919c944fc7750e397a58f85\jetified-play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
+97            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+97-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\2e21f0125919c944fc7750e397a58f85\jetified-play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
+98        <!--
+99            Service handling Google Sign-In user revocation. For apps that do not integrate with
+100            Google Sign-In, this service will never be started.
+101        -->
+102        <service
+102-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\2e21f0125919c944fc7750e397a58f85\jetified-play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
+103            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+103-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\2e21f0125919c944fc7750e397a58f85\jetified-play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
+104            android:exported="true"
+104-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\2e21f0125919c944fc7750e397a58f85\jetified-play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
+105            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+105-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\2e21f0125919c944fc7750e397a58f85\jetified-play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
+106        <!--
+107             FirebaseMessagingService performs security checks at runtime,
+108             no need for explicit permissions despite exported="true"
+109        -->
+110        <service
+110-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\5d12a0f069fc100d7c7c77a4138d16c4\jetified-firebase-messaging-17.3.4\AndroidManifest.xml:28:9-34:19
+111            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+111-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\5d12a0f069fc100d7c7c77a4138d16c4\jetified-firebase-messaging-17.3.4\AndroidManifest.xml:29:13-82
+112            android:exported="true" >
+112-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\5d12a0f069fc100d7c7c77a4138d16c4\jetified-firebase-messaging-17.3.4\AndroidManifest.xml:30:13-36
+113            <intent-filter android:priority="-500" >
+113-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:21:13-23:29
+114                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+114-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:22:17-78
+114-->C:\Users\LoveHouse\AndroidStudioProjects\paik\app\src\main\AndroidManifest.xml:22:25-75
+115            </intent-filter>
+116        </service>
+117
+118        <receiver
+118-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\513472d40dc2657af4d1a544800b2e31\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:29:9-33:20
+119            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+119-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\513472d40dc2657af4d1a544800b2e31\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:30:13-85
+120            android:enabled="true"
+120-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\513472d40dc2657af4d1a544800b2e31\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:31:13-35
+121            android:exported="false" >
+121-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\513472d40dc2657af4d1a544800b2e31\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:32:13-37
+122        </receiver>
+123        <receiver
+123-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\513472d40dc2657af4d1a544800b2e31\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:34:9-42:20
+124            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+124-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\513472d40dc2657af4d1a544800b2e31\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:35:13-100
+125            android:enabled="true"
+125-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\513472d40dc2657af4d1a544800b2e31\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:36:13-35
+126            android:exported="true"
+126-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\513472d40dc2657af4d1a544800b2e31\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:37:13-36
+127            android:permission="android.permission.INSTALL_PACKAGES" >
+127-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\513472d40dc2657af4d1a544800b2e31\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:38:13-69
+128            <intent-filter>
+128-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\513472d40dc2657af4d1a544800b2e31\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:39:13-41:29
+129                <action android:name="com.android.vending.INSTALL_REFERRER" />
+129-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\513472d40dc2657af4d1a544800b2e31\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:40:17-79
+129-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\513472d40dc2657af4d1a544800b2e31\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:40:25-76
+130            </intent-filter>
+131        </receiver>
+132
+133        <service
+133-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\513472d40dc2657af4d1a544800b2e31\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:44:9-47:40
+134            android:name="com.google.android.gms.measurement.AppMeasurementService"
+134-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\513472d40dc2657af4d1a544800b2e31\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:45:13-84
+135            android:enabled="true"
+135-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\513472d40dc2657af4d1a544800b2e31\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:46:13-35
+136            android:exported="false" />
+136-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\513472d40dc2657af4d1a544800b2e31\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:47:13-37
+137        <service
+137-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\513472d40dc2657af4d1a544800b2e31\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:48:9-52:72
+138            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+138-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\513472d40dc2657af4d1a544800b2e31\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:49:13-87
+139            android:enabled="true"
+139-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\513472d40dc2657af4d1a544800b2e31\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:50:13-35
+140            android:exported="false"
+140-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\513472d40dc2657af4d1a544800b2e31\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:51:13-37
+141            android:permission="android.permission.BIND_JOB_SERVICE" />
+141-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\513472d40dc2657af4d1a544800b2e31\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:52:13-69
+142
+143        <receiver
+143-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\8b92dc3ac66a5d78b33e25e45a0d3b51\jetified-firebase-iid-17.0.4\AndroidManifest.xml:37:9-44:20
+144            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+144-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\8b92dc3ac66a5d78b33e25e45a0d3b51\jetified-firebase-iid-17.0.4\AndroidManifest.xml:38:13-78
+145            android:exported="true"
+145-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\8b92dc3ac66a5d78b33e25e45a0d3b51\jetified-firebase-iid-17.0.4\AndroidManifest.xml:39:13-36
+146            android:permission="com.google.android.c2dm.permission.SEND" >
+146-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\8b92dc3ac66a5d78b33e25e45a0d3b51\jetified-firebase-iid-17.0.4\AndroidManifest.xml:40:13-73
+147            <intent-filter>
+147-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\8b92dc3ac66a5d78b33e25e45a0d3b51\jetified-firebase-iid-17.0.4\AndroidManifest.xml:41:13-43:29
+148                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+148-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\8b92dc3ac66a5d78b33e25e45a0d3b51\jetified-firebase-iid-17.0.4\AndroidManifest.xml:42:17-81
+148-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\8b92dc3ac66a5d78b33e25e45a0d3b51\jetified-firebase-iid-17.0.4\AndroidManifest.xml:42:25-78
+149            </intent-filter>
+150        </receiver>
+151        <!--
+152             FirebaseInstanceIdService performs security checks at runtime,
+153             no need for explicit permissions despite exported="true"
+154        -->
+155        <service
+155-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\8b92dc3ac66a5d78b33e25e45a0d3b51\jetified-firebase-iid-17.0.4\AndroidManifest.xml:50:9-56:19
+156            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+156-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\8b92dc3ac66a5d78b33e25e45a0d3b51\jetified-firebase-iid-17.0.4\AndroidManifest.xml:51:13-77
+157            android:exported="true" >
+157-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\8b92dc3ac66a5d78b33e25e45a0d3b51\jetified-firebase-iid-17.0.4\AndroidManifest.xml:52:13-36
+158            <intent-filter android:priority="-500" >
+158-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\8b92dc3ac66a5d78b33e25e45a0d3b51\jetified-firebase-iid-17.0.4\AndroidManifest.xml:53:13-55:29
+158-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\8b92dc3ac66a5d78b33e25e45a0d3b51\jetified-firebase-iid-17.0.4\AndroidManifest.xml:53:28-51
+159                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+159-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\8b92dc3ac66a5d78b33e25e45a0d3b51\jetified-firebase-iid-17.0.4\AndroidManifest.xml:54:17-80
+159-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\8b92dc3ac66a5d78b33e25e45a0d3b51\jetified-firebase-iid-17.0.4\AndroidManifest.xml:54:25-77
+160            </intent-filter>
+161        </service>
+162
+163        <activity
+163-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\699e53e923c5876c7e5f1872ee5dd7b1\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+164            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+164-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\699e53e923c5876c7e5f1872ee5dd7b1\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+165            android:exported="false"
+165-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\699e53e923c5876c7e5f1872ee5dd7b1\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+166            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+166-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\699e53e923c5876c7e5f1872ee5dd7b1\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+167
+168        <provider
+168-->[com.google.firebase:firebase-common:16.0.4] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\8016c2e04a5066ede0f955957576a80c\jetified-firebase-common-16.0.4\AndroidManifest.xml:10:9-14:39
+169            android:name="com.google.firebase.provider.FirebaseInitProvider"
+169-->[com.google.firebase:firebase-common:16.0.4] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\8016c2e04a5066ede0f955957576a80c\jetified-firebase-common-16.0.4\AndroidManifest.xml:11:13-77
+170            android:authorities="com.paik.app.firebaseinitprovider"
+170-->[com.google.firebase:firebase-common:16.0.4] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\8016c2e04a5066ede0f955957576a80c\jetified-firebase-common-16.0.4\AndroidManifest.xml:12:13-72
+171            android:exported="false"
+171-->[com.google.firebase:firebase-common:16.0.4] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\8016c2e04a5066ede0f955957576a80c\jetified-firebase-common-16.0.4\AndroidManifest.xml:13:13-37
+172            android:initOrder="100" />
+172-->[com.google.firebase:firebase-common:16.0.4] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\8016c2e04a5066ede0f955957576a80c\jetified-firebase-common-16.0.4\AndroidManifest.xml:14:13-36
+173
+174        <meta-data
+174-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\dc3dec1ff24ea9f1e656f2ae64d48eb2\jetified-play-services-basement-16.1.0\AndroidManifest.xml:23:9-25:69
+175            android:name="com.google.android.gms.version"
+175-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\dc3dec1ff24ea9f1e656f2ae64d48eb2\jetified-play-services-basement-16.1.0\AndroidManifest.xml:24:13-58
+176            android:value="@integer/google_play_services_version" />
+176-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\LoveHouse\.gradle\caches\transforms-2\files-2.1\dc3dec1ff24ea9f1e656f2ae64d48eb2\jetified-play-services-basement-16.1.0\AndroidManifest.xml:25:13-66
+177    </application>
+178
+179</manifest>

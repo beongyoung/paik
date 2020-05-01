@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="#fff"
+    tools:context=".tab.FreeFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:scrollbars="none"
+        android:id="@+id/svHome">
+
+        <RelativeLayout
+            android:id="@+id/tmpFilter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvReset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/ui_contents_background"
+                android:gravity="center"
+                android:paddingHorizontal="15dp"
+                android:paddingVertical="5dp"
+                android:text="전체보기"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tvSelectContents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/ui_contents_background"
+                android:layout_toLeftOf="@+id/tvReset"
+                android:gravity="center"
+                android:paddingHorizontal="15dp"
+                android:paddingVertical="5dp"
+                android:text="지역별"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tvNewPost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_toRightOf="@+id/tvReset"
+                android:background="@drawable/ui_contents_background"
+                android:gravity="center"
+                android:paddingHorizontal="15dp"
+                android:paddingVertical="5dp"
+                android:text="작성하기"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvGuest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvNewPost"
+                android:scrollbars="vertical"
+
+                />
+
+            <Button
+                android:id="@+id/btnReadMore"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@+id/rvGuest"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/ui_contents_background"
+                android:paddingHorizontal="5dp"
+                android:text="더보기"
+                android:layout_marginBottom="70dp"
+                />
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+    <ProgressBar
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/pbTmp"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

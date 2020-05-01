@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_marginTop="4dp"
+
+    android:layout_height="wrap_content"
+    android:background="@drawable/guest_recyclerview"
+    >
+    <TextView
+        android:id="@+id/tvContents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="콘텐츠 종류"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+
+        />
+    <TextView
+        android:id="@+id/tvArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ivUser"
+        android:text="지역"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+
+        />
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:id="@+id/ivUser"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/ic_person_black_24dp"
+        />
+
+    <Button
+        android:id="@+id/btnShow"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="3dp"
+        android:background="#00ff0000" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:text="email : noEmail"
+        android:layout_width="300dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toLeftOf="@+id/ivUser"
+        android:textColor="#111"
+        android:textSize="15dp" />
+    <TextView
+        android:id="@+id/tvPrice"
+        android:text="price : noPoint"
+
+        android:layout_width="300dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/ivUser"
+        android:textColor="#ffa569"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tvIntro"
+        android:text="no Introduce"
+        android:layout_width="match_parent"
+        android:layout_margin="15dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivUser"
+        android:layout_centerVertical="true"
+
+        android:textColor="#5b5b5b"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tvShowProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="프로필 보기"
+        android:textSize="17dp"
+        android:padding="5dp"
+        android:background="@drawable/ui_contents_background"
+        android:layout_below="@+id/tvIntro"
+        android:layout_marginBottom="5dp"
+        />
+    <TextView
+        android:id="@+id/tvSendMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="메시지 보내기"
+        android:textSize="17dp"
+        android:padding="5dp"
+        android:background="@drawable/ui_contents_background"
+        android:layout_toRightOf="@+id/tvShowProfile"
+        android:layout_below="@+id/tvIntro"
+        />
+    <TextView
+        android:id="@+id/tvPurchase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="Purchase"
+        android:textSize="17dp"
+        android:padding="5dp"
+        android:background="@drawable/ui_contents_background"
+        android:layout_toRightOf="@+id/tvSendMessage"
+        android:layout_below="@+id/tvIntro"
+        />
+
+
+
+</RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+
+            />
+
+
+    </LinearLayout>
+</ScrollView>

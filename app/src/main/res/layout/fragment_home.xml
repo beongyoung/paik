@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:background="#fff"
+
+    tools:context=".tab.HomeFragment"
+    android:clickable="true">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:scrollbars="none"
+        android:id="@+id/svHome">
+
+        <RelativeLayout
+            android:id="@+id/tmpFilter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rnFriend"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:scrollbars="vertical"
+                >
+            </androidx.recyclerview.widget.RecyclerView>
+
+            <TextView
+                android:id="@+id/tvSelectArea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rnFriend"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/ui_contents_background"
+                android:gravity="center"
+                android:paddingHorizontal="15dp"
+                android:paddingVertical="5dp"
+                android:singleLine="true"
+                android:text="지역별"
+                android:textColor="#000"
+                android:textSize="20dp"
+
+                />
+
+            <TextView
+                android:id="@+id/tvSelectContents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rnFriend"
+                android:layout_margin="5dp"
+                android:layout_toRightOf="@+id/tvSelectArea"
+                android:background="@drawable/ui_contents_background"
+                android:singleLine="true"
+                android:gravity="center"
+                android:paddingHorizontal="15dp"
+                android:paddingVertical="5dp"
+                android:text="콘텐츠별"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tvReset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rnFriend"
+                android:layout_margin="5dp"
+                android:layout_toLeftOf="@+id/tvSelectArea"
+                android:background="@drawable/ui_contents_background"
+                android:gravity="center"
+                android:paddingHorizontal="15dp"
+                android:singleLine="true"
+                android:paddingVertical="5dp"
+                android:text="전체보기"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/newGuest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvSelectArea"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/ui_contents_background"
+                android:gravity="center"
+                android:paddingHorizontal="15dp"
+                android:paddingVertical="5dp"
+                android:text="게스트 작성하기"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:visibility="gone"
+                />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvGuest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/newGuest"
+                android:scrollbars="vertical"
+
+                />
+
+            <Button
+                android:id="@+id/btnReadMore"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@+id/rvGuest"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/ui_contents_background"
+                android:paddingHorizontal="5dp"
+                android:text="more"
+                android:layout_marginBottom="70dp"
+                />
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+    <ProgressBar
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/pbTmp"
+        android:visibility="gone"
+        />
+</RelativeLayout>

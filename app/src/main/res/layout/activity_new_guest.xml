@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            tools:context=".guest.newGuest">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="#c5fff9"
+                android:gravity="center"
+                android:text="게스트 장터에 등록하기"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="1.어떤 지역이 가장 편하신가요?"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tvArea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/ui_contents_background"
+                android:padding="5dp"
+                android:text="지역 선택"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="2.어떤 콘텐츠에서 게스트로 활동하고 싶으세요?"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tvContents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/ui_contents_background"
+                android:padding="5dp"
+                android:text="콘텐츠 선택"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="3.간단하게 본인을 설명해주세요!"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/etIntro"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_margin="5dp"
+                android:gravity="start"
+                android:hint="안녕하세요. 저는 앱개발자구요. 500글자 이내로 작성해주세요."
+                android:maxLength="500" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="4.가격을 몇 포인트로 정할까요?(숫자만 입력)"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:text="일반적으로 구독자 100명을 가진 유튜버는 100p로 책정됩니다."
+                android:textColor="#9d9b9b"
+                android:textSize="13dp" />
+
+            <EditText
+                android:id="@+id/etPrice"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:hint="숫자만 입력해주세요."
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/tvSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/ui_contents_background"
+                android:padding="5dp"
+                android:text="저장하기"
+                android:textColor="#000"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/pbTmp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+</RelativeLayout>

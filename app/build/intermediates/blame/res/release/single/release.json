@@ -1,0 +1,350 @@
+[
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_show_profile.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\activity_show_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_list_office_category.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\list_office_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_right_text_view.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\right_text_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_show_post.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\activity_show_post.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_report.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\activity_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_labor_contract.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\activity_labor_contract.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_account_balance_black_24dp.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\drawable\\ic_account_balance_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\drawable_ui_bar.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\drawable\\ui_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_regist_company.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\activity_regist_company.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_list_contents_drawer.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\list_contents_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_brightness_5_black_24dp.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\drawable\\ic_brightness_5_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_forum_black_24dp.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\drawable\\ic_forum_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_regist2.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\activity_regist2.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_area_contents.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\activity_area_contents.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_new_guest.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\activity_new_guest.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_list_friend.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\list_friend.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\drawable_guest_recyclerview.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\drawable\\guest_recyclerview.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_show_experts.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\activity_show_experts.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_point_shop.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\activity_point_shop.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_company_a.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\activity_company_a.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_view_headline_black_24dp.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\drawable\\ic_view_headline_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_rate.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\activity_rate.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_home_black_24dp.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\drawable\\ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\drawable_chat_bubble.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\drawable\\chat_bubble.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\drawable_ui_contents_background.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\drawable\\ui_contents_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\drawable_intro_image.png.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\drawable\\intro_image.png"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_fragment_delete.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\fragment_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_new_post.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\activity_new_post.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_my_text_view.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\my_text_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_regist.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\activity_regist.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_person_white_24dp.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\drawable\\ic_person_white_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\menu_navigation.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\menu\\navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\color_nav_item_colors.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\color\\nav_item_colors.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_subdirectory_arrow_right_black_24dp.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\drawable\\ic_subdirectory_arrow_right_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_list_guests.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\list_guests.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\drawable_ui_noti_unread.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\drawable\\ui_noti_unread.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_lens_black_24dp.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\drawable\\ic_lens_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_account_circle_black_24dp.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\drawable\\ic_account_circle_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_fragment_free.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\fragment_free.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_work_black_24dp.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\drawable\\ic_work_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_contents_drawer.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\activity_contents_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_guest_market.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\activity_guest_market.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_clear_black_24dp.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\drawable\\ic_clear_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_contents_show.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\activity_contents_show.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\drawable_ui_show_change.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\drawable\\ui_show_change.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_fragment_agency.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\fragment_agency.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\drawable\\ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_date.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\date.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_message.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\activity_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\drawable_area.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\drawable\\area.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_image.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\activity_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_chat.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_list_comment.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\list_comment.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_list_contents.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\list_contents.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_f__unpaid_wages.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\activity_f__unpaid_wages.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_person_black_24dp.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\drawable\\ic_person_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_tab.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\activity_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_near_me_black_24dp.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\drawable\\ic_near_me_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_search_black_24dp.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\drawable\\ic_search_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_fragment_noti.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\fragment_noti.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_list_home.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\list_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\drawable_contents.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\drawable\\contents.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\drawable\\ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_list_show_change.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\list_show_change.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_chat_room.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\activity_chat_room.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_report_black_24dp.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\drawable\\ic_report_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\drawable_default_image.png.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\drawable\\default_image.png"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_more_vert_black_24dp.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\drawable\\ic_more_vert_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_group_black_24dp.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\drawable\\ic_group_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_attach_money_black_24dp.xml.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\drawable\\ic_attach_money_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\LoveHouse\\AndroidStudioProjects\\paik\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    }
+]
